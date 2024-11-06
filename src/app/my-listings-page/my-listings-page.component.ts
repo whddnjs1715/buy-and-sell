@@ -13,7 +13,6 @@ export class MyListingsPageComponent implements OnInit{
   constructor(){}
 
   ngOnInit(): void {
-    console.log('fakeListings', fakeListings)
     this.listings = fakeListings;
   }
 

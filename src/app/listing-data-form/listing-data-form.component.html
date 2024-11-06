@@ -1,9 +1,9 @@
-<form (ngSubmit)="onSubmit()">
+<form (ngSubmit)="onButtonClicked()">
     <div>
         <label for="name">
             Name :
         </label>
-        <input id="name" name="name" type="text" [(ngModel)]="name" />
+        <input id="name" name="name" type="text" [(ngModel)]="name"/>
     </div>
     <div>
         <label for="description">
@@ -17,5 +17,5 @@
         </label>
         <input id="price" name="price" type="text" [(ngModel)]="price" />
     </div>   
-    <button type="submit">Create Listing</button>     
+    <button type="submit">{{buttonText}}</button>     
 </form>
