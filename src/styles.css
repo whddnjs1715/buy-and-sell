@@ -76,13 +76,13 @@ div {
     margin-bottom: 16px;
 }
 
-.button-container {
+.buttons-container {
     position: absolute;
     right: 0px;
     bottom: 0px;
     padding: 16px;
 }
 
-.button-container > button {
+.buttons-container > button {
     margin-left: 8px;
 }
