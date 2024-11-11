@@ -13,7 +13,7 @@ export class EditListingPageComponent implements OnInit{
     id: '',
     name: '',
     description: '',
-    price: 0,
+    price: '0',
   };
 
   constructor(
@@ -27,7 +27,7 @@ export class EditListingPageComponent implements OnInit{
       id: '',
       name: '',
       description: '',
-      price: 0,
+      price: '0',
     };
   }
 

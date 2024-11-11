@@ -15,7 +15,7 @@ export class ContactPageComponent implements OnInit{
     id: '',
     name: '',
     description: '',
-    price: 0,
+    price: '0',
   };
 
   constructor (
@@ -29,7 +29,7 @@ export class ContactPageComponent implements OnInit{
       id: '',
       name: '',
       description: '',
-      price: 0,
+      price: '0',
     };
     this.message = `Hi I'm interested in your ${this.listing.name.toLocaleLowerCase()}!`
   }
