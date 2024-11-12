@@ -16,6 +16,7 @@ export class ListingDetailPageComponent implements OnInit{
     name: '',
     description: '',
     price: '0',
+    views: '0'
   };
 
   constructor (
