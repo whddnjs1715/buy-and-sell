@@ -33,9 +33,10 @@ export class ListingDataFormComponent implements OnInit{
   onButtonClicked(): void {
     this.onSubmit.emit({
       id: '',
-      name: this.name,
-      description: this.description,
-      price: this.price,
+      name: this.name ?? '',
+      description: this.description ?? '',
+      price: this.price ?? '',
+      // views: 0,
     });
   }
 }
